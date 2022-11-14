@@ -1,16 +1,15 @@
 
 
 # Lab | Kalvium Premier League
+## Introduction
+Alex is a young entrepreneur who is out to assemble his own football team to enter the FPL. Ambitious much? Well, he seems to have the resources to do it though. He has collected data on players across various teams. He now needs to arrange this data in order to make sense of it. He needs an application that will help him compare and contrast the abilities of different players.
 
-Alex is a young enterprenuer who is out to assemble his own football team to enter the FPL. Ambitious much? Well, he seems to have the resources to do it though. He has collected data of players across various teams. He now needs to arrange this data inorder to make sense of it. He needs an application that will help him compare and contrast abilities of different players.
-
-Alas, for all the money in the world, he can't find a decent programmer to help him with this task. He's designed the front-end of the application and it looks great. He needs **YOU** to help him code the functionalities in the back-end though. Go to the `src/app.js` file and complete all the unfinished code to propel this young man's football dream.
+Alas, for all the money in the world, he can't find a decent programmer to help him with this task. He's designed the front end of the application, and it looks great. He needs **YOU** to help him code the functionalities in the back end, though. Go to the `src/app.js` file and complete all the unfinished code to propel this young man's football dream.
 
 ## What should you do
 
 
-## How To Submit
-
+Here is the boilerplate [link]() of the lab. Fork the project and get started with the lab.
 
 ## Starter code
 
@@ -43,31 +42,31 @@ Every team starts off with a manager. We need someone to take care of them when 
 
 ### Progression 2: Plan of Action
 
-The coach has prepared a plan of action for the team. He has the formation ready and will provide us with an array `[defender, midfield, forward]`. He will give us the numbers and we'll need to print that layout on our screen so that we know who to pick (for instance, how many midfielders do we need?). Create a function `createFormation()` that _returns an object_ with the data and keys in the order given in the array.
+The coach has prepared a plan of action for the team. He has the formation ready and will provide us with an array `[defender, midfield, forward]`. He will give us the numbers, and we'll need to print that layout on our screen so that we know who to pick (for instance, how many midfielders do we need?). Create a function `createFormation()` that _returns an object_ with the data and keys in the order given in the array.
 
 ### Progression 3: Twinkle Twinkle, football star!
 
-Alex needs to know when a player debuted. Alex was just going through some astrological facts and had discovered that there are specific years where lady luck favoured all. He believes that selecting those players would be great for his team. Create a function `filterByDebut()` which takes `year` as an argument and _returns an array of player objects_ that debuted in the given year.
+Alex needs to know when a player debuted. Alex was just going through some astrological facts and had discovered that there are specific years where lady luck favored all. He believes that selecting those players would be great for his team. Create a function `filterByDebut()` which takes `year` as an argument and _returns an array of player objects_ that debuted in the given year.
 
 ### Progression 4: Get in the box!
 
-We've already decided the team formation. Now we need to filter players based on their position. This would help Alex decide who goes where. Create a function `filterByPosition()` which takes `position` as an argument and _returns an array of player objects_ that play in that position.
+We've already decided on the team formation. Now we need to filter players based on their position. This would help Alex decide who goes where. Create a function `filterByPosition()` which takes `position` as an argument and _returns an array of player objects_ that play in that position.
 
 ### Progression 5: Ooh...shinyyy!
 
-Who doesn't want a player with multiple medals and trophies in his closet? Alex wants you to retrieve data of players who have won a specific award. Create a function `filterByAward()` which takes `awardName` as an argument and _returns an array of player objects_ that who have won that award.
+Who doesn't want a player with multiple medals and trophies in his closet? Alex wants you to retrieve data on players who have won a specific award. Create a function `filterByAward()` which takes `awardName` as an argument and _returns an array of player objects_ that who have won that award.
 
 ### Progression 6: One a penny, two a penny, hot cross shoots!
 
-Now that we've got players that have won an award, we need to find out how many times they've won a specific award. The more, the merrier. Create a function `filterByAwardxTimes()` which takes `awardName, noOfTimes` as arguments and _returns an array of player objects_ that have won a specific ward, a given number of times.
+Now that we've got players that have won an award, we need to find out how many times they've won a specific award. The more, the merrier. Create a function `filterByAwardxTimes()` which takes `awardName, noOfTimes` as arguments and _returns an array of player objects_ that have won a specific ward a given number of times.
 
-### Progression 7: But, where do you come from?
+### Progression 7: But where do you come from?
 
 Alex prefers some countries over others. That doesn't mean he's willing to ignore achievements. Why? Well, let's not get into details. Create a function `filterByAwardxTimes` which takes `awardName, country` as arguments and _returns an array of player objects_ that have won a specific award and belong to the given country.
 
-### Progression 8: This, that and then some more...
+### Progression 8: This, that, and then some more...
 
-Alex is getting very meticulous with his selection criteria. He believes youth overpower age but they should have won a certain number of awards and belong to his favourite team. Create a function `filterByNoOfAwardsxTeamxAge()` which takes `noOfAwards, team, age` as arguments and _returns an array of player objects_ that have won at least the given number of awards, belong to a specific team and are younger than mentioned age.
+Alex is getting very meticulous with his selection criteria. He believes youth overpower age, but they should have won a certain number of awards and belong to his favorite team. Create a function `filterByNoOfAwardsxTeamxAge()` which takes `noOfAwards, team, age` as arguments and _returns an array of player objects_ that have won at least the given number of awards, belong to a specific team and are younger than mentioned age.
 
 ### Progression 9: Old is gold.
 
@@ -75,14 +74,19 @@ You know what they say, "Age before beauty". Alex wants you to display the playe
 
 ### Progression 10: Team Game
 
-Retrieve players of a specific team. Then, display them in descending order of number of awards won by each player. Create a function `FilterByTeamxSortByNoOfAwards()` which teakes `team` as an argument and _returns an array of player objects_.
+Retrieve players of a specific team. Then, display them in descending order of the number of awards won by each player. Create a function `FilterByTeamxSortByNoOfAwards()` which takes `team` as an argument and _returns an array of player objects_.
 
 ### Challenge 1: The devil is in the details
 
-Find out players who have won a certain award a given number of times. They must also belong to Alex's favourite country. Sort them in good old fashioned alphabetical order. Create a function `SortByNamexAwardxTimes()` which takes `awardName, noOfTimes, country` as arguments and _returns an array of player objects_.
+Find out players who have won a certain award a given number of times. They must also belong to Alex's favorite country. Sort them in good old-fashioned alphabetical order. Create a function `SortByNamexAwardxTimes()` which takes `awardName, noOfTimes, country` as arguments and _returns an array of player objects_.
 
 ### Challenge 2: The golden goal
 
-Time to get things finally sorted out. So, two things - one, sort players older than a given age in the alphabetiacl order. Also, sort their awards based on reverse chronological order. Create a funtion `SortByNamexOlderThan()` which takes an argument `age` and _returns and array of player objects_.
+Time to get things finally sorted out. So, two things - one, sort players older than a given age in alphabetical order. Also, sort their awards based on reverse chronological order. Create a function `SortByNamexOlderThan()` which takes an argument `age` and _returns an array of player objects_.
+
+## How To Submit
+
+Host your completed lab project in GitHub and submit your project repository link in this [form](https://docs.google.com/forms/d/1FsIKaMGG8g_xISwHg0oGVQJpgHCXVRQGSQmpytu-b_o/viewform?usp=pp_url&entry.1483932328=CSK101-M2-L78.1).
 
 Happy Coding ❤️
+
